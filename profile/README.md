@@ -1,4 +1,4 @@
-# JoyanIoT 🌐
+# Joyan IoT 🌐
 
 Bienvenido a **JoyanIoT**, una organización dedicada a desarrollar soluciones innovadoras mediante la tecnología IoT 🌱💡. Nuestro propósito es crear sistemas que mejoren la vida cotidiana a través de la conectividad y la automatización, con un enfoque especial en aplicaciones de monitoreo y control inteligente.
 
