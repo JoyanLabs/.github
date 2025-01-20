@@ -2,7 +2,7 @@
 
 Bienvenido a **JoyanIoT**, una organización dedicada a desarrollar soluciones innovadoras mediante la tecnología IoT 🌱💡. Nuestro propósito es crear sistemas que mejoren la vida cotidiana a través de la conectividad y la automatización, con un enfoque especial en aplicaciones de monitoreo y control inteligente.
 
-![Logo de JoyanIoT](blade-runner-unicorn-line-transparent.svg)  <!-- Aquí puedes agregar la ruta de tu logo -->
+![Logo de JoyanIoT](https://avatars.githubusercontent.com/u/194740074?s=200&v=4)  <!-- Aquí puedes agregar la ruta de tu logo -->
 
 ---
 
