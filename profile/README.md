@@ -1,35 +1,58 @@
-# Joyan 🌐
+# Joyan | Ecosistema de Innovación 🌐
 
-Bienvenido a **Joyan**, una organización dedicada a desarrollar soluciones innovadoras. Nuestro propósito es crear sistemas que mejoren la vida cotidiana a través de la conectividad y la automatización, con un enfoque especial en aplicaciones de monitoreo y control inteligente.
+**Visión:** Ser el socio tecnológico integral para empresas en crecimiento, transformando desafíos complejos en soluciones unificadas a través de un ecosistema de innovación sinérgico.
 
-
-### 🚀 Nuestros Proyectos Actuales
-
-#### **TARS** 🤖🌾  
-**TARS** es un asistente IoT diseñado para proporcionar información avanzada sobre cultivos y riego inteligente. Con TARS, buscamos optimizar el cuidado de los cultivos mediante el uso de tecnología avanzada y datos en tiempo real.
- 
-TARS utiliza IoT para monitorear el estado de los cultivos, optimizar el riego y proporcionar alertas cuando es necesario. Nuestro sistema está basado en una arquitectura que integra servicios IoT, modelos inteligentes, y análisis de datos para mejorar la eficiencia agrícola.
-
-
-<!-- Aquí también puedes poner una imagen representativa de TARS -->
+**Lema:** ✨ *"Just One step for Your All Needs"* ✨
 
 ---
 
-### ¿Por qué Joyan? 🤝
-En **Joyan** creemos que la tecnología debe ser accesible y práctica para todos. Nos apasiona crear soluciones que no solo sean innovadoras, sino también escalables y útiles en industrias tradicionales. Empezamos con la agricultura, pero estamos listos para llevar nuestras soluciones a muchos más sectores.
+## 🚀 Bienvenido al Hub de Ejecución Técnica de Joyan
+
+Esta organización de GitHub es el corazón técnico de **Joyan EXP**, el motor de integración y software a medida de nuestro ecosistema. Aquí no solo almacenamos código; gestionamos la infraestructura que nos permite construir y conectar el software que nuestros clientes realmente necesitan para operar sin fricciones.
+
+Nuestro trabajo aquí es la implementación tangible de nuestro **Sistema Operativo Joyan**: una infraestructura de procesos diseñada para escalar nuestra ventaja competitiva fundamental, la **"Sinergia Integrada"**. Cada repositorio y plantilla que encuentres es un activo competitivo que habilita la escalabilidad y garantiza la consistencia en la calidad de nuestros servicios.
 
 ---
 
-### 🌱 Contribuye a la Innovación
-Si compartes nuestra visión de transformar el futuro con IoT, ¡únete a nosotros! Explora nuestros proyectos y contribuye con ideas, código o simplemente compartiendo nuestro propósito.
+## 🏛️ Arquitectura de Repositorios: Implementando Nuestro Sistema Operativo
 
-<!-- 🔗 [Visita nuestro repositorio de TARS](https://github.com/JoyanIoT/TARS) -->
+Para mantener la claridad, la escalabilidad y la alineación con nuestra estrategia, todos nuestros repositorios siguen una estricta convención de nomenclatura. Esto nos permite entender el propósito de cada proyecto de un vistazo y automatizar nuestros flujos de trabajo.
+
+La estructura estándar es:
+```
+tipo-division-descriptor
+```
+
+-   `tipo`: Define el propósito del repositorio (`template`, `client`, `demo`, `internal`).
+-   `division`: Indica la división que lidera el proyecto (`exp`, `iot`, `sec`, `mkt`, `labs`).
+-   `descriptor`: Un nombre corto y claro del proyecto, cliente o servicio.
+
+### Tabla de Nomenclatura y Etiquetado
+
+| Tipo de Repositorio | Formato del Nombre | Ejemplo |  etiquetas/Topics Recomendadas |
+| :--- | :--- | :--- | :--- |
+| 📦 **Plantilla** | `template-division-servicio` | `template-exp-odoo-v16` | `template`, `odoo`, `division-exp` |
+| 🤝 **Cliente** | `client-division-cliente-servicio` | `client-exp-acme-odoo` | `client-project`, `acme`, `odoo` |
+| 🎬 **Demostración** | `demo-division-servicio` | `demo-exp-twenty-crm` | `demonstration`, `twenty-crm` |
+| 🔬 **Interno / I+D**| `internal-division-proyecto` | `internal-labs-synergy-bot` | `internal-tool`, `rd`, `automation` |
+
+> [!IMPORTANT]
+> El uso de **Etiquetas (Topics)** en cada repositorio no es opcional. Es fundamental para filtrar y organizar nuestros proyectos, permitiendo una gestión visual y programática del ecosistema.
 
 ---
 
-### Contáctanos
-Si tienes preguntas, sugerencias o ideas, no dudes en ponerte en contacto con nosotros a través de GitHub Issues o en nuestras redes sociales:
+## 🧩 La Sinergia en Acción: Más Allá del Código
 
-- Twitter/X: [@_JMNRA](https://x.com/_JMNRA)
+Si bien la mayoría de la actividad aquí proviene de **Joyan EXP**, es crucial entender que cada solución desplegada está diseñada para ser parte de un todo más grande.
 
-¡Gracias por apoyar la tecnología del futuro! 🙌
+-   Un ERP **Odoo** (desplegado por `Joyan EXP`) puede ser asegurado por `Joyan Sec`.
+-   Un panel de control a medida (`Joyan EXP`) puede visualizar datos de sensores instalados por `Joyan IoT`.
+-   El éxito de un proyecto se convierte en un caso de estudio por `Joyan MKT` para nutrir a todo el ecosistema.
+
+Esta capacidad para gestionar el ciclo de vida tecnológico completo de un cliente es nuestra **ventaja injusta** y el principio rector de todo lo que construimos.
+
+---
+
+### 📫 Contáctanos
+
+Si tienes preguntas sobre nuestra metodología o cómo nuestro ecosistema puede ayudarte a crecer, no dudes en ponerte en contacto.
