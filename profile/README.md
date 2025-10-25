@@ -2,57 +2,101 @@
 
 **Visión:** Ser el socio tecnológico integral para empresas en crecimiento, transformando desafíos complejos en soluciones unificadas a través de un ecosistema de innovación sinérgico.
 
-**Lema:** ✨ *"Just One step for Your All Needs"* ✨
+**Propósito:** ✨ *"Just One step for Your All Needs"* ✨
 
 ---
 
-## 🚀 Bienvenido al Hub de Ejecución Técnica de Joyan
+## 🚀 Acerca de esta Organización
 
-Esta organización de GitHub es el corazón técnico de **Joyan EXP**, el motor de integración y software a medida de nuestro ecosistema. Aquí no solo almacenamos código; gestionamos la infraestructura que nos permite construir y conectar el software que nuestros clientes realmente necesitan para operar sin fricciones.
+Esta organización de GitHub es el centro de ejecución técnica de **Joyan EXP**, el motor de integración y software a medida de nuestro ecosistema. Aquí gestionamos el código, la infraestructura y los activos de ingeniería que nos permiten construir y conectar el software que nuestros clientes necesitan para operar sin fricciones.
 
-Nuestro trabajo aquí es la implementación tangible de nuestro **Sistema Operativo Joyan**: una infraestructura de procesos diseñada para escalar nuestra ventaja competitiva fundamental, la **"Sinergia Integrada"**. Cada repositorio y plantilla que encuentres es un activo competitivo que habilita la escalabilidad y garantiza la consistencia en la calidad de nuestros servicios.
+Nuestro objetivo es implementar una infraestructura de procesos y tecnología cohesiva. Cada repositorio es un activo diseñado para escalar nuestras operaciones, garantizar la calidad y habilitar la sinergia entre nuestras divisiones.
 
 ---
 
-## 🏛️ Arquitectura de Repositorios: Implementando Nuestro Sistema Operativo
+## 🏗️ Arquitectura y Nomenclatura de Repositorios
 
-Para mantener la claridad, la escalabilidad y la alineación con nuestra estrategia, todos nuestros repositorios siguen una estricta convención de nomenclatura. Esto nos permite entender el propósito de cada proyecto de un vistazo y automatizar nuestros flujos de trabajo.
+Para mantener la claridad, la escalabilidad y facilitar la automatización, todos los repositorios siguen una estricta convención de nomenclatura. Esto nos permite entender el propósito de cada proyecto de un vistazo y automatizar nuestros flujos de trabajo.
 
 La estructura estándar es:
 ```
 tipo-division-descriptor
 ```
 
--   `tipo`: Define el propósito del repositorio (`template`, `client`, `demo`, `internal`).
--   `division`: Indica la división que lidera el proyecto (`exp`, `iot`, `sec`, `mkt`, `labs`).
--   `descriptor`: Un nombre corto y claro del proyecto, cliente o servicio.
+-   **`tipo`**: Define el propósito del repositorio (qué es).
+-   **`division`**: Define el propietario (quién lo lidera).
+-   **`descriptor`**: Define el contenido (qué hace). Se utiliza kebab-case (guiones).
 
-### Tabla de Nomenclatura y Etiquetado
+### 📋 Definiciones de Tipos y Divisiones
 
-| Tipo de Repositorio | Formato del Nombre | Ejemplo |  etiquetas/Topics Recomendadas |
+| Tipo | Descripción |
+| :--- | :--- |
+| `template` | Plantillas de inicio para nuevos proyectos. |
+| `client` | Proyecto específico para un cliente (facturable). |
+| `project` | Proyecto de I+D, producto interno o piloto (no facturable). |
+| `internal` | Herramientas internas, servicios de soporte, configuraciones. |
+| `demo` | Demostraciones de productos o servicios (para uso interno o público). |
+| `public` | Proyectos públicos: landings, open source, etc. |
+
+| División | Descripción |
+| :--- | :--- |
+| `exp` | Experience: Integración, ERPs, CRMs, software a medida. |
+| `iot` | IoT: Proyectos de hardware y conectividad. |
+| `sec` | Security: Servicios y auditorías de seguridad. |
+| `mkt` | Marketing: Proyectos de cara al público, landings, etc. |
+| `labs` | R&D: Investigación y desarrollo de nuevos productos/pilotos. |
+| `ops` | Operations: Herramientas transversales, CI/CD, infraestructura interna. |
+
+### 🏷️ Tabla de Nomenclatura y Etiquetado
+
+| Tipo de Repositorio | Formato del Nombre | Ejemplo | Etiquetas/Topics Recomendadas |
 | :--- | :--- | :--- | :--- |
-| 📦 **Plantilla** | `template-division-servicio` | `template-exp-odoo-v16` | `template`, `odoo`, `division-exp` |
+| 📦 **Plantilla** | `template-division-servicio` | `template-exp-odoo-v19` | `template`, `odoo`, `exp` |
 | 🤝 **Cliente** | `client-division-cliente-servicio` | `client-exp-acme-odoo` | `client-project`, `acme`, `odoo` |
-| 🎬 **Demostración** | `demo-division-servicio` | `demo-exp-twenty-crm` | `demonstration`, `twenty-crm` |
-| 🔬 **Interno / I+D**| `internal-division-proyecto` | `internal-labs-synergy-bot` | `internal-tool`, `rd`, `automation` |
+| 🔬 **Proyecto (I+D)** | `project-division-nombre` | `project-labs-tars_backend` | `project`, `labs`, `tars`, `backend` |
+| 🛠️ **Herramienta Interna** | `internal-division-herramienta` | `internal-ops-n8n_workflows` | `internal-tool`, `ops`, `n8n` |
+| 🎬 **Demostración** | `demo-division-servicio` | `demo-exp-twenty-crm` | `demo`, `twenty`, `exp` |
+| 🌍 **Público** | `public-division-proyecto` | `public-mkt-amanto_landing` | `public`, `mkt`, `landing` |
 
 > [!IMPORTANT]
-> El uso de **Etiquetas (Topics)** en cada repositorio no es opcional. Es fundamental para filtrar y organizar nuestros proyectos, permitiendo una gestión visual y programática del ecosistema.
+> El uso de **Etiquetas (Topics)** en cada repositorio no es opcional. Es fundamental para filtrar y organizar nuestros activos, permitiendo una gestión visual y programática del ecosistema.
 
 ---
 
-## 🧩 La Sinergia en Acción: Más Allá del Código
+## 🧩 Estrategia de Ecosistema
 
-Si bien la mayoría de la actividad aquí proviene de **Joyan EXP**, es crucial entender que cada solución desplegada está diseñada para ser parte de un todo más grande.
+Si bien gran parte de la actividad aquí proviene de **Joyan EXP**, es crucial entender que cada solución desplegada está diseñada para ser parte de un todo más grande.
 
--   Un ERP **Odoo** (desplegado por `Joyan EXP`) puede ser asegurado por `Joyan Sec`.
--   Un panel de control a medida (`Joyan EXP`) puede visualizar datos de sensores instalados por `Joyan IoT`.
--   El éxito de un proyecto se convierte en un caso de estudio por `Joyan MKT` para nutrir a todo el ecosistema.
+-   Un ERP **Odoo** (desplegado por Joyan EXP) puede ser asegurado por **Joyan Sec**.
+-   Un panel de control a medida (Joyan EXP) puede visualizar datos de sensores instalados por **Joyan IoT**.
+-   Un proyecto piloto de **Joyan Labs** (como TARS) puede convertirse en un producto comercializado por **Joyan MKT**.
 
-Esta capacidad para gestionar el ciclo de vida tecnológico completo de un cliente es nuestra **ventaja injusta** y el principio rector de todo lo que construimos.
+Esta capacidad para gestionar el ciclo de vida tecnológico completo de un cliente es nuestra **ventaja competitiva** y el principio rector de todo lo que construimos.
 
 ---
 
-### 📫 Contáctanos
+## 📫 Contacto
 
 Si tienes preguntas sobre nuestra metodología o cómo nuestro ecosistema puede ayudarte a crecer, no dudes en ponerte en contacto.
+
+---
+
+## 📋 Apéndice: Migración de Repositorios Actuales
+
+Basado en la nueva nomenclatura, se sugiere renombrar los repositorios existentes que no cumplan el estándar para mantener la consistencia:
+
+| Nombre Actual | Nombre Sugerido | Justificación |
+| :--- | :--- | :--- |
+| `joyan-obsidian` | `internal-ops-obsidian-vault` | Herramienta interna de operaciones. |
+| `joyan-n8n` | `internal-ops-n8n-server` | Herramienta interna de operaciones. |
+| `joyan-twenty-serv` | `internal-ops-twenty-server` | Herramienta interna de operaciones. |
+| `n8n-template` | `template-ops-n8n-workflow` | Plantilla para flujos de automatización. |
+| `tars-backend` | `project-labs-tars-backend` | Proyecto piloto de I+D de Labs. |
+| `tars-frontend` | `project-labs-tars-frontend` | Proyecto piloto de I+D de Labs. |
+| `amanto-landing` | `public-mkt-amanto-landing` | Proyecto público gestionado por Marketing. |
+| `demo-exp-odoo_v19-erp` | `demo-exp-odoo-v19-erp` | Estandarizar a guiones (-) vs (_). |
+| `template-labs-nest_service` | `template-labs-nest-service` | Estandarizar a guiones (-) vs (_). |
+
+---
+
+*Este README es parte del Sistema Operativo Joyan y está diseñado para evolucionar con nuestro ecosistema.*
