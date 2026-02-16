@@ -2,7 +2,7 @@
 
 **Visión:** Ser el socio tecnológico integral para empresas en crecimiento, transformando desafíos complejos en soluciones unificadas a través de un ecosistema de innovación sinérgico.
 
-**Propósito:** ✨ *"Just One step for Your All Needs"* ✨
+✨ *"Just One step for Your All Needs"* ✨
 
 ---
 
